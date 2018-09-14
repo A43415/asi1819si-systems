@@ -9,19 +9,20 @@
     </packageImport>
     <packagedElement xmi:type="uml:Package" xmi:id="_TyhKILdPEeinbO8zsvLE9Q" name="Air Compressor Model" URI="">
       <packagedElement xmi:type="uml:Package" xmi:id="_Ul6rELdREeinbO8zsvLE9Q" name="Package2"/>
-      <packagedElement xmi:type="uml:Package" xmi:id="_xjDIwLdREeinbO8zsvLE9Q" name="Package4" URI="">
-        <packagedElement xmi:type="uml:Class" xmi:id="_opsG8LdHEeinbO8zsvLE9Q" name="Air Compressor Specification">
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_zRDuQLdHEeinbO8zsvLE9Q" name="Power"/>
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_u3cMMLdTEeinbO8zsvLE9Q" name="Compress Air"/>
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_CIJn4LdUEeinbO8zsvLE9Q" name="Storage Capacity"/>
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_xPFaALdIEeinbO8zsvLE9Q" name="Max Pressure"/>
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_Me5aQLdJEeinbO8zsvLE9Q" name="Reliability"/>
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_KjNwsLdJEeinbO8zsvLE9Q" name="Portability"/>
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_USTrMLdUEeinbO8zsvLE9Q" name="Max Flow Rate"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_xjDIwLdREeinbO8zsvLE9Q" name="Requirements" URI="">
+        <packagedElement xmi:type="uml:Package" xmi:id="_ZTEeMLg3EeiK1PkNbWGgKg" name="req [Package] Requirements [Air Compressor Requirements]">
+          <packagedElement xmi:type="uml:Class" xmi:id="_zRDuQLdHEeinbO8zsvLE9Q" name="Power"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_u3cMMLdTEeinbO8zsvLE9Q" name="Compress Air"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_CIJn4LdUEeinbO8zsvLE9Q" name="Storage Capacity"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_xPFaALdIEeinbO8zsvLE9Q" name="Max Pressure"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_Me5aQLdJEeinbO8zsvLE9Q" name="Reliability"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_KjNwsLdJEeinbO8zsvLE9Q" name="Portability"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_USTrMLdUEeinbO8zsvLE9Q" name="Max Flow Rate"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_opsG8LdHEeinbO8zsvLE9Q" name="Air Compressor Specification"/>
         </packagedElement>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_gMYPgLdfEeinbO8zsvLE9Q" name="Structure">
-        <packagedElement xmi:type="uml:Package" xmi:id="_XpnsoLdREeinbO8zsvLE9Q" name="Package3" URI="">
+        <packagedElement xmi:type="uml:Package" xmi:id="_XpnsoLdREeinbO8zsvLE9Q" name="bdd [Package] Structure [Air Compressor Top Level" URI="">
           <packagedElement xmi:type="uml:Class" xmi:id="_q_voQLdbEeinbO8zsvLE9Q" name="Air Compressor Context">
             <ownedAttribute xmi:type="uml:Property" xmi:id="_lHu2kLdcEeinbO8zsvLE9Q" name="operator" type="_HcLMoLdcEeinbO8zsvLE9Q" aggregation="composite" association="_lHtBYLdcEeinbO8zsvLE9Q">
               <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lHvdoLdcEeinbO8zsvLE9Q"/>
@@ -69,7 +70,31 @@
             <ownedEnd xmi:type="uml:Property" xmi:id="_HwNGcLddEeinbO8zsvLE9Q" name="air compressor context" type="_q_voQLdbEeinbO8zsvLE9Q" association="_HwLRQLddEeinbO8zsvLE9Q"/>
           </packagedElement>
         </packagedElement>
-        <packagedElement xmi:type="uml:Package" xmi:id="_C_fCELdgEeinbO8zsvLE9Q" name="Package14" URI="">
+        <packagedElement xmi:type="uml:Package" xmi:id="_C_fCELdgEeinbO8zsvLE9Q" name="bdd [Package] Structure [Air Compressor System Hierarchy]" URI="">
+          <packagedElement xmi:type="uml:Association" xmi:id="_KQ8LkLdiEeinbO8zsvLE9Q" name="Block15" memberEnd="_KQ-AwLdiEeinbO8zsvLE9Q _KQ-n0bdiEeinbO8zsvLE9Q">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KQ9ZsLdiEeinbO8zsvLE9Q" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KQ9ZsbdiEeinbO8zsvLE9Q" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_KQ-n0bdiEeinbO8zsvLE9Q" name="air compressor" type="_gHjkcLdgEeinbO8zsvLE9Q" association="_KQ8LkLdiEeinbO8zsvLE9Q"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_O-FQILdiEeinbO8zsvLE9Q" name="Block16" memberEnd="_O-F3MrdiEeinbO8zsvLE9Q _O-GeQrdiEeinbO8zsvLE9Q">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_O-F3MLdiEeinbO8zsvLE9Q" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_O-F3MbdiEeinbO8zsvLE9Q" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_O-GeQrdiEeinbO8zsvLE9Q" name="air compressor" type="_gHjkcLdgEeinbO8zsvLE9Q" association="_O-FQILdiEeinbO8zsvLE9Q"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_Rd3sULdiEeinbO8zsvLE9Q" name="Block17" memberEnd="_Rd4TYrdiEeinbO8zsvLE9Q _Rd46cLdiEeinbO8zsvLE9Q">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Rd4TYLdiEeinbO8zsvLE9Q" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Rd4TYbdiEeinbO8zsvLE9Q" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_Rd46cLdiEeinbO8zsvLE9Q" name="air compressor" type="_gHjkcLdgEeinbO8zsvLE9Q" association="_Rd3sULdiEeinbO8zsvLE9Q"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_SQcYwLdiEeinbO8zsvLE9Q" name="Block18" memberEnd="_SQc_0rdiEeinbO8zsvLE9Q _SQdm4bdiEeinbO8zsvLE9Q">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_SQc_0LdiEeinbO8zsvLE9Q" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_SQc_0bdiEeinbO8zsvLE9Q" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_SQdm4bdiEeinbO8zsvLE9Q" name="air compressor" type="_gHjkcLdgEeinbO8zsvLE9Q" association="_SQcYwLdiEeinbO8zsvLE9Q"/>
+          </packagedElement>
           <packagedElement xmi:type="uml:Class" xmi:id="_gHjkcLdgEeinbO8zsvLE9Q" name="Air Compressor">
             <ownedAttribute xmi:type="uml:Property" xmi:id="_u3eVgLdgEeinbO8zsvLE9Q" name="Block1">
               <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
@@ -112,30 +137,6 @@
           </packagedElement>
         </packagedElement>
       </packagedElement>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_KQ8LkLdiEeinbO8zsvLE9Q" name="Block15" memberEnd="_KQ-AwLdiEeinbO8zsvLE9Q _KQ-n0bdiEeinbO8zsvLE9Q">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KQ9ZsLdiEeinbO8zsvLE9Q" source="org.eclipse.papyrus">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KQ9ZsbdiEeinbO8zsvLE9Q" key="nature" value="UML_Nature"/>
-      </eAnnotations>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_KQ-n0bdiEeinbO8zsvLE9Q" name="air compressor" type="_gHjkcLdgEeinbO8zsvLE9Q" association="_KQ8LkLdiEeinbO8zsvLE9Q"/>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_O-FQILdiEeinbO8zsvLE9Q" name="Block16" memberEnd="_O-F3MrdiEeinbO8zsvLE9Q _O-GeQrdiEeinbO8zsvLE9Q">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_O-F3MLdiEeinbO8zsvLE9Q" source="org.eclipse.papyrus">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_O-F3MbdiEeinbO8zsvLE9Q" key="nature" value="UML_Nature"/>
-      </eAnnotations>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_O-GeQrdiEeinbO8zsvLE9Q" name="air compressor" type="_gHjkcLdgEeinbO8zsvLE9Q" association="_O-FQILdiEeinbO8zsvLE9Q"/>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_Rd3sULdiEeinbO8zsvLE9Q" name="Block17" memberEnd="_Rd4TYrdiEeinbO8zsvLE9Q _Rd46cLdiEeinbO8zsvLE9Q">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Rd4TYLdiEeinbO8zsvLE9Q" source="org.eclipse.papyrus">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Rd4TYbdiEeinbO8zsvLE9Q" key="nature" value="UML_Nature"/>
-      </eAnnotations>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_Rd46cLdiEeinbO8zsvLE9Q" name="air compressor" type="_gHjkcLdgEeinbO8zsvLE9Q" association="_Rd3sULdiEeinbO8zsvLE9Q"/>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_SQcYwLdiEeinbO8zsvLE9Q" name="Block18" memberEnd="_SQc_0rdiEeinbO8zsvLE9Q _SQdm4bdiEeinbO8zsvLE9Q">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_SQc_0LdiEeinbO8zsvLE9Q" source="org.eclipse.papyrus">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_SQc_0bdiEeinbO8zsvLE9Q" key="nature" value="UML_Nature"/>
-      </eAnnotations>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_SQdm4bdiEeinbO8zsvLE9Q" name="air compressor" type="_gHjkcLdgEeinbO8zsvLE9Q" association="_SQcYwLdiEeinbO8zsvLE9Q"/>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="__nNsQLc_EeinbO8zsvLE9Q">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__nO6YLc_EeinbO8zsvLE9Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
