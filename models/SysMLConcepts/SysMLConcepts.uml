@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Blocks" xmlns:PortsAndFlows="http://www.eclipse.org/papyrus/sysml/1.4/SysML/PortsAndFlows" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.4/SysML#//blocks http://www.eclipse.org/papyrus/sysml/1.4/SysML/PortsAndFlows http://www.eclipse.org/papyrus/sysml/1.4/SysML#//portsandflows">
+  <uml:Model xmi:id="_KbGHMMWGEeitXZCNszerRA" name="SysMLConcepts">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_Ke-hoMWGEeitXZCNszerRA">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_KfMkEMWGEeitXZCNszerRA">
+      <importedPackage xmi:type="uml:Package" href="pathmap://SysML14_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_YtAtoMWGEeitXZCNszerRA" name="SysMLConcepts [Summary bbd Notation]" URI="">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_l5oYkMWJEeitXZCNszerRA" annotatedElement="_WPCH8MWJEeitXZCNszerRA">
+        <body>Block</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_1Eq_YMWJEeitXZCNszerRA" annotatedElement="_jiRfoMWJEeitXZCNszerRA">
+        <body>Specialization/&#xD;
+Generalization</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_JjWisMWNEeitXZCNszerRA" annotatedElement="_YtAtoMWGEeitXZCNszerRA">
+        <body>Block with value properties, one masked as requited feature</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_KpxtUMWPEeitXZCNszerRA" annotatedElement="_J2BHYMWKEeitXZCNszerRA">
+        <body>Block with part property</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_8ds14MWeEeitXZCNszerRA" annotatedElement="_29p_oMWcEeitXZCNszerRA">
+        <body>Block with provided operation and flow properties</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_WGJPsMWfEeitXZCNszerRA" annotatedElement="_H9lZkMWfEeitXZCNszerRA">
+        <body>Agreggation (shared)</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_4bz4UMWfEeitXZCNszerRA" annotatedElement="_2yMPIMWfEeitXZCNszerRA">
+        <body>Dependency</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_jsnP8MWgEeitXZCNszerRA" annotatedElement="_VYH2oMWgEeitXZCNszerRA">
+        <body>Association Block</body>
+      </ownedComment>
+      <packagedElement xmi:type="uml:Class" xmi:id="_6ckjEMWHEeitXZCNszerRA" name="Block1"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_WPCH8MWJEeitXZCNszerRA" name="Block2" visibility="protected"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_afq2sMWJEeitXZCNszerRA" name="Block3">
+        <generalization xmi:type="uml:Generalization" xmi:id="_jiRfoMWJEeitXZCNszerRA" general="_WPCH8MWJEeitXZCNszerRA"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_Dn7aMMWaEeitXZCNszerRA" name="RoleName1" type="_J2BHYMWKEeitXZCNszerRA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_J2BHYMWKEeitXZCNszerRA" name="Block6">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_D0vvMMWPEeitXZCNszerRA" name="RoleName2" type="_RRlhEMWKEeitXZCNszerRA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_RRlhEMWKEeitXZCNszerRA" name="Block7">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_1HFdYMWNEeitXZCNszerRA" name="reqd BlockProperty1">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="__G2SIMWNEeitXZCNszerRA" name="BlockProperty2">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ainnkMWKEeitXZCNszerRA" name="Block8" visibility="public" memberEnd="_airR8MWKEeitXZCNszerRA _air5AsWKEeitXZCNszerRA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_aiqD0MWKEeitXZCNszerRA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_aiqD0cWKEeitXZCNszerRA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_air5AsWKEeitXZCNszerRA" type="_J2BHYMWKEeitXZCNszerRA" association="_ainnkMWKEeitXZCNszerRA"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_airR8MWKEeitXZCNszerRA" name="RoleName2" type="_RRlhEMWKEeitXZCNszerRA" aggregation="composite" association="_ainnkMWKEeitXZCNszerRA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_air5AMWKEeitXZCNszerRA"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_air5AcWKEeitXZCNszerRA" value="*"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_TZ7soMWVEeitXZCNszerRA" name="Block11" visibility="public" memberEnd="_TZ86wsWVEeitXZCNszerRA _TZ9h0sWVEeitXZCNszerRA" navigableOwnedEnd="_TZ86wsWVEeitXZCNszerRA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_TZ86wMWVEeitXZCNszerRA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_TZ86wcWVEeitXZCNszerRA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_TZ9h0sWVEeitXZCNszerRA" name="block3" type="_afq2sMWJEeitXZCNszerRA" association="_TZ7soMWVEeitXZCNszerRA"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_TZ86wsWVEeitXZCNszerRA" name="RoleName1" type="_J2BHYMWKEeitXZCNszerRA" association="_TZ7soMWVEeitXZCNszerRA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TZ9h0MWVEeitXZCNszerRA" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TZ9h0cWVEeitXZCNszerRA" value="*"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_29p_oMWcEeitXZCNszerRA" name="Block12">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_gs8EsMWeEeitXZCNszerRA" name="in FlowProperty1" type="_Yl9zAMWdEeitXZCNszerRA"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_3XyE8MWeEeitXZCNszerRA" name="out FlowProperty2">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+        </ownedAttribute>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_UbOQ4MWdEeitXZCNszerRA" name="prov Operation1"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_Yl9zAMWdEeitXZCNszerRA" name="Block13"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_H9lZkMWfEeitXZCNszerRA" name="Block15" memberEnd="_H9mnssWfEeitXZCNszerRA _H9n10MWfEeitXZCNszerRA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_H9mnsMWfEeitXZCNszerRA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_H9mnscWfEeitXZCNszerRA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_H9n10MWfEeitXZCNszerRA" type="_afq2sMWJEeitXZCNszerRA" association="_H9lZkMWfEeitXZCNszerRA"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_H9mnssWfEeitXZCNszerRA" type="_29p_oMWcEeitXZCNszerRA" aggregation="shared" association="_H9lZkMWfEeitXZCNszerRA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_H9nOwMWfEeitXZCNszerRA"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_H9nOwcWfEeitXZCNszerRA" value="1"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_2yMPIMWfEeitXZCNszerRA" name="Block17" client="_29p_oMWcEeitXZCNszerRA" supplier="_Yl9zAMWdEeitXZCNszerRA"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_PIVTkMWgEeitXZCNszerRA" name="Block19" memberEnd="_PIWhssWgEeitXZCNszerRA _PIXv0cWgEeitXZCNszerRA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_PIWhsMWgEeitXZCNszerRA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_PIWhscWgEeitXZCNszerRA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_PIXv0cWgEeitXZCNszerRA" name="block13" type="_Yl9zAMWdEeitXZCNszerRA" association="_PIVTkMWgEeitXZCNszerRA"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_PIWhssWgEeitXZCNszerRA" name="block6" type="_J2BHYMWKEeitXZCNszerRA" association="_PIVTkMWgEeitXZCNszerRA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_PIXIwMWgEeitXZCNszerRA" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PIXv0MWgEeitXZCNszerRA" value="1"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_VYH2oMWgEeitXZCNszerRA" name="Block20"/>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_73NywMWgEeitXZCNszerRA" name="Block22" client="_VYH2oMWgEeitXZCNszerRA" supplier="_PIVTkMWgEeitXZCNszerRA"/>
+      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="__Qe20MWvEeitXZCNszerRA" name="InstanceSpecification23" classifier="_RRlhEMWKEeitXZCNszerRA">
+        <slot xmi:type="uml:Slot" xmi:id="_mLc2oMWwEeitXZCNszerRA" definingFeature="__G2SIMWNEeitXZCNszerRA">
+          <value xmi:type="uml:LiteralReal" xmi:id="_uLz_cMWwEeitXZCNszerRA" value="123.5"/>
+        </slot>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_By76kMWyEeitXZCNszerRA" name="Livro">
+        <packagedElement xmi:type="uml:Class" xmi:id="_wpTqsMWyEeitXZCNszerRA" name="Livro">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_y23ucMWyEeitXZCNszerRA" name="isbn">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_3ZmSwMWyEeitXZCNszerRA" name="titulo">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_5CnfAMWyEeitXZCNszerRA" name="autor">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_CvxEUMW0EeitXZCNszerRA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_Qt8E0MWzEeitXZCNszerRA" name="Memorial" visibility="protected" classifier="_wpTqsMWyEeitXZCNszerRA">
+          <slot xmi:type="uml:Slot" xmi:id="_q9kacMWzEeitXZCNszerRA" definingFeature="_y23ucMWyEeitXZCNszerRA">
+            <value xmi:type="uml:LiteralString" xmi:id="_4rm3wMWzEeitXZCNszerRA" value="978-972-0-04671-0"/>
+          </slot>
+          <slot xmi:type="uml:Slot" xmi:id="_HA2fAMW0EeitXZCNszerRA" definingFeature="_3ZmSwMWyEeitXZCNszerRA">
+            <value xmi:type="uml:LiteralString" xmi:id="_Mb1hAMW0EeitXZCNszerRA" value="Memorial do Convento"/>
+          </slot>
+          <slot xmi:type="uml:Slot" xmi:id="_O6KkoMW0EeitXZCNszerRA" definingFeature="_5CnfAMWyEeitXZCNszerRA">
+            <value xmi:type="uml:LiteralString" xmi:id="_aJeVsMW0EeitXZCNszerRA" value="José Saramago"/>
+          </slot>
+        </packagedElement>
+        <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_CSSosMW1EeitXZCNszerRA" name="Segredo" visibility="protected" classifier="_wpTqsMWyEeitXZCNszerRA">
+          <slot xmi:type="uml:Slot" xmi:id="_CSSoscW1EeitXZCNszerRA" definingFeature="_y23ucMWyEeitXZCNszerRA">
+            <value xmi:type="uml:LiteralString" xmi:id="_CSSossW1EeitXZCNszerRA" value=" 9789897220609"/>
+          </slot>
+          <slot xmi:type="uml:Slot" xmi:id="_CSSos8W1EeitXZCNszerRA" definingFeature="_3ZmSwMWyEeitXZCNszerRA">
+            <value xmi:type="uml:LiteralString" xmi:id="_CSSotMW1EeitXZCNszerRA" value="Dentro do Segredo"/>
+          </slot>
+          <slot xmi:type="uml:Slot" xmi:id="_CSSotcW1EeitXZCNszerRA" definingFeature="_5CnfAMWyEeitXZCNszerRA">
+            <value xmi:type="uml:LiteralString" xmi:id="_CSSotsW1EeitXZCNszerRA" value="José Luís Peixoto"/>
+          </slot>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_Ib480MW4EeitXZCNszerRA" name="InterfaceBlock25">
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_LawhsMW4EeitXZCNszerRA" name="Operation1"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_NFbTwMW4EeitXZCNszerRA" name="Operation2"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_avqgEMXBEeitXZCNszerRA" name="Block26">
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_hxuNkMXBEeitXZCNszerRA" name="Block1" aggregation="composite"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_F9rpcMXCEeitXZCNszerRA" name="Block27">
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_VwNHAMXCEeitXZCNszerRA" name="Block2" type="_29p_oMWcEeitXZCNszerRA" aggregation="composite" isService="false">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_JGno8MXFEeitXZCNszerRA" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JG4HoMXFEeitXZCNszerRA" value="1"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_4WQGQMXIEeitXZCNszerRA" name="Block28">
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_ArGJ8MXMEeitXZCNszerRA" name="ProxyPort1" type="_Ib480MW4EeitXZCNszerRA" aggregation="composite" isConjugated="true"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_4zkUYMXIEeitXZCNszerRA" name="Block29">
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_DI0JkMXMEeitXZCNszerRA" name="ProxyPort1" aggregation="composite"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Ke4bAMWGEeitXZCNszerRA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Ke6QMMWGEeitXZCNszerRA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Ke7eUMWGEeitXZCNszerRA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Ke7eUcWGEeitXZCNszerRA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//activities"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Activities"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Ke8FYMWGEeitXZCNszerRA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Ke8FYcWGEeitXZCNszerRA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//allocations"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Allocations"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Ke8FYsWGEeitXZCNszerRA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Ke8FY8WGEeitXZCNszerRA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//blocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Ke8scMWGEeitXZCNszerRA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Ke8sccWGEeitXZCNszerRA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//constraintblocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ConstraintBlocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Ke8scsWGEeitXZCNszerRA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Ke8sc8WGEeitXZCNszerRA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//deprecatedelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_DeprecatedElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Ke9TgMWGEeitXZCNszerRA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Ke9TgcWGEeitXZCNszerRA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//modelelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ModelElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Ke9TgsWGEeitXZCNszerRA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Ke9Tg8WGEeitXZCNszerRA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//portsandflows"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Ports_u0026Flows"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Ke9ThMWGEeitXZCNszerRA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Ke9ThcWGEeitXZCNszerRA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Requirements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Ke96kMWGEeitXZCNszerRA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Ke96kcWGEeitXZCNszerRA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+  </uml:Model>
+  <Blocks:Block xmi:id="_6crQwMWHEeitXZCNszerRA" base_Class="_6ckjEMWHEeitXZCNszerRA"/>
+  <Blocks:Block xmi:id="_WPIOkMWJEeitXZCNszerRA" base_Class="_WPCH8MWJEeitXZCNszerRA"/>
+  <Blocks:Block xmi:id="_afvIIMWJEeitXZCNszerRA" base_Class="_afq2sMWJEeitXZCNszerRA"/>
+  <Blocks:Block xmi:id="_J2ExwMWKEeitXZCNszerRA" base_Class="_J2BHYMWKEeitXZCNszerRA"/>
+  <Blocks:Block xmi:id="_RRpLcMWKEeitXZCNszerRA" base_Class="_RRlhEMWKEeitXZCNszerRA"/>
+  <Blocks:Block xmi:id="_29tqAMWcEeitXZCNszerRA" base_Class="_29p_oMWcEeitXZCNszerRA"/>
+  <Blocks:Block xmi:id="_YmAPQMWdEeitXZCNszerRA" base_Class="_Yl9zAMWdEeitXZCNszerRA"/>
+  <Blocks:Block xmi:id="_VYN9QMWgEeitXZCNszerRA" base_Class="_VYH2oMWgEeitXZCNszerRA"/>
+  <Blocks:Block xmi:id="_wpWuAMWyEeitXZCNszerRA" base_Class="_wpTqsMWyEeitXZCNszerRA"/>
+  <PortsAndFlows:InterfaceBlock xmi:id="_Ib8AIMW4EeitXZCNszerRA" base_Class="_Ib480MW4EeitXZCNszerRA"/>
+  <Blocks:Block xmi:id="_avuKcMXBEeitXZCNszerRA" base_Class="_avqgEMXBEeitXZCNszerRA"/>
+  <Blocks:Block xmi:id="_F9vT0MXCEeitXZCNszerRA" base_Class="_F9rpcMXCEeitXZCNszerRA"/>
+  <Blocks:Block xmi:id="_4WXbAMXIEeitXZCNszerRA" base_Class="_4WQGQMXIEeitXZCNszerRA" isEncapsulated="true"/>
+  <Blocks:Block xmi:id="_4zpz8MXIEeitXZCNszerRA" base_Class="_4zkUYMXIEeitXZCNszerRA"/>
+  <PortsAndFlows:ProxyPort xmi:id="_ArLCcMXMEeitXZCNszerRA" base_Port="_ArGJ8MXMEeitXZCNszerRA"/>
+  <PortsAndFlows:ProxyPort xmi:id="_DI3M4MXMEeitXZCNszerRA" base_Port="_DI0JkMXMEeitXZCNszerRA"/>
+</xmi:XMI>
