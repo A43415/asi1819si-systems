@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_6ITMIK-iEeiJEM0YAcAhlg" name="PersonalComputer">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_6NhqYK-iEeiJEM0YAcAhlg">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_6NzXMK-iEeiJEM0YAcAhlg">
+    <importedPackage xmi:type="uml:Package" href="pathmap://SysML14_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_oZd9cK-jEeiJEM0YAcAhlg" name="PcBot">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_arn38K-kEeiJEM0YAcAhlg" type="_vXPA0K-jEeiJEM0YAcAhlg" aggregation="composite" association="_arlbsK-kEeiJEM0YAcAhlg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_arptIK-kEeiJEM0YAcAhlg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_arptIa-kEeiJEM0YAcAhlg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_iF738K-lEeiJEM0YAcAhlg" type="_EuVEwK-lEeiJEM0YAcAhlg" aggregation="composite" association="_iF6CwK-lEeiJEM0YAcAhlg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_iF8fAK-lEeiJEM0YAcAhlg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_iF8fAa-lEeiJEM0YAcAhlg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_8vESsK-lEeiJEM0YAcAhlg" type="_xmteMK-lEeiJEM0YAcAhlg" aggregation="composite" association="_8vDEkK-lEeiJEM0YAcAhlg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8vESsa-lEeiJEM0YAcAhlg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8vE5wK-lEeiJEM0YAcAhlg" value="2"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_BUQ8Ma-mEeiJEM0YAcAhlg" type="_uFdlAK-lEeiJEM0YAcAhlg" aggregation="composite" association="_BUN44K-mEeiJEM0YAcAhlg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_BURjQK-mEeiJEM0YAcAhlg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_BURjQa-mEeiJEM0YAcAhlg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_1gSF4K-nEeiJEM0YAcAhlg" name="peso" isReadOnly="true">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_GqAm8K-oEeiJEM0YAcAhlg" name="Block6">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_MSvKAK-oEeiJEM0YAcAhlg" name="reset"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_vXPA0K-jEeiJEM0YAcAhlg" name="Placa-principal"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_arlbsK-kEeiJEM0YAcAhlg" name="Block15" memberEnd="_arn38K-kEeiJEM0YAcAhlg _arqUMK-kEeiJEM0YAcAhlg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_arnQ4K-kEeiJEM0YAcAhlg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_arnQ4a-kEeiJEM0YAcAhlg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_arqUMK-kEeiJEM0YAcAhlg" type="_oZd9cK-jEeiJEM0YAcAhlg" association="_arlbsK-kEeiJEM0YAcAhlg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_EuVEwK-lEeiJEM0YAcAhlg" name="Caixa-ecra"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_iF6CwK-lEeiJEM0YAcAhlg" name="Block17" memberEnd="_iF738K-lEeiJEM0YAcAhlg _iF9GEK-lEeiJEM0YAcAhlg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_iF7Q4K-lEeiJEM0YAcAhlg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_iF7Q4a-lEeiJEM0YAcAhlg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_iF9GEK-lEeiJEM0YAcAhlg" type="_oZd9cK-jEeiJEM0YAcAhlg" association="_iF6CwK-lEeiJEM0YAcAhlg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_uFdlAK-lEeiJEM0YAcAhlg" name="Arnazenamento"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_xmteMK-lEeiJEM0YAcAhlg" name="Block19"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_8vDEkK-lEeiJEM0YAcAhlg" name="Block20" visibility="package" memberEnd="_8vESsK-lEeiJEM0YAcAhlg _8vE5wa-lEeiJEM0YAcAhlg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8vDroK-lEeiJEM0YAcAhlg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8vDroa-lEeiJEM0YAcAhlg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_8vE5wa-lEeiJEM0YAcAhlg" type="_oZd9cK-jEeiJEM0YAcAhlg" association="_8vDEkK-lEeiJEM0YAcAhlg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_3js6cLA8EeiJEM0YAcAhlg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_3l5S0LA8EeiJEM0YAcAhlg" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_BUN44K-mEeiJEM0YAcAhlg" name="Block21" memberEnd="_BUQ8Ma-mEeiJEM0YAcAhlg _BURjQq-mEeiJEM0YAcAhlg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BUQVIK-mEeiJEM0YAcAhlg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_BUQ8MK-mEeiJEM0YAcAhlg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_BURjQq-mEeiJEM0YAcAhlg" type="_oZd9cK-jEeiJEM0YAcAhlg" association="_BUN44K-mEeiJEM0YAcAhlg"/>
+  </packagedElement>
+</uml:Model>
